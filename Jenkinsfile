@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         IMAGE_REPO_NAME="log4shellpub"
-        //REPLACE 111 WITH YOUR STUDENT NUMBER
+        //REPLACE XXX WITH YOUR STUDENT NUMBER
         IMAGE_TAG= "std111"        
         REPOSITORY_URI = "public.ecr.aws/f9n2h3p5/log4shellpub"
         AWS_DEFAULT_REGION = "us-east-1"
